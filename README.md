@@ -40,21 +40,21 @@ In response to above questions , I analyzed the dataset and got the answer of ea
 
 - Price always  **increase** on **Friday** and **Saturday**, so try to avoid booking accomodataion on these two days in a week.
 
-<img src="Answer1-2.png" alt="Answer1-2" style="zoom:50%;" />
+<img src="Answer1-2.png" alt="Answer1-2" style="zoom:30%;" />
 
 #### Answer 2:
 
 - **Location** is an important factor that can influence the price. **Average price** in the region whose **zipcode is 98134** is **highest**, while in the region whose **zipcode is 98106** you can book **cheap** homestay. What's more, listings **near Kaanapali** are usually **expensive** while those **near Holly park** can be very **cheap**.
 
-<img src="Answer2-1.png" alt="Answer2-1" style="zoom:50%;" />
+<img src="Answer2-1.png" alt="Answer2-1" style="zoom:30%;" />
 
 - **The number of amenities** listings have can also influence the price. In general, listings with **more amenities** usually are **more expensive**. But this phenomenon is not that unconditional, actually it also depends on what kinds of amenities listings have.
 
-<img src="Answer2-2.png" alt="Answer2-2" style="zoom:50%;" />
+<img src="Answer2-2.png" alt="Answer2-2" style="zoom:30%;" />
 
 - For some kinds of amenities, listings with them or without them may have different prices. A homestay **with TV** will obviously **more expensive** than that without, But a homestay **with cats or dogs** usually **cheaper** than that without cats of dog. (In following picture, '1' means with that amenity, '0' means without that)
 
-<img src="Answer2-3.png" alt="Answer2-3" style="zoom:50%;" />
+<img src="Answer2-3.png" alt="Answer2-3" style="zoom:30%;" />
 
 - **Location**, **cleaning fee**, **available time**, **reviews**(including number of reviews per month and review scores),  **number of amenities** might be top 5 important factors for the price.
 
@@ -62,7 +62,7 @@ In response to above questions , I analyzed the dataset and got the answer of ea
 
 - Location, property of accomodation, comfort, cleanliness might be factors that guests care about most.
 
-<img src="reviews_wordcloud.png" alt="reviews_wordcloud" style="zoom:50%;" />
+<img src="reviews_wordcloud.png" alt="reviews_wordcloud" style="zoom:30%;" />
 
 ### Conclusion
 
