@@ -17,7 +17,7 @@ The dataset contains three files:
 When we travel to other cities, accomodation is the first thing we need to consider. According to the dataset and my life experience, I put forward following three questions, and the target of this project is to find answers of these questions.
 
 1. **When will it be cheaper to book a homestay in Seattle?**
-2. **What are main factors that influence the price?**
+2. **What are main factors that influence the price? **
 3. **What factors people care about most when choosing an accomodation?**
 
 ### Method
@@ -36,25 +36,25 @@ In response to above questions , I analyzed the dataset and got the answer of ea
 
 - It will be **cheapest** to book a homestay in **January**, while most **expensive** in **July**.
 
-<img src="Answer1-1.png" style="zoom:50%;" />
+<img src="C:\Users\zengh\Desktop\Project1_Writing_a_data_scientist_blog_post\Answer1-1.png" style="zoom:67%;" />
 
 - Price always  **increase** on **Friday** and **Saturday**, so try to avoid booking accomodataion on these two days in a week.
 
-<img src="Answer1-2.png" alt="Answer1-2" style="zoom:30%;" />
+<img src="C:\Users\zengh\Desktop\Project1_Writing_a_data_scientist_blog_post\Answer1-2.png" alt="Answer1-2" style="zoom:60%;" />
 
 #### Answer 2:
 
 - **Location** is an important factor that can influence the price. **Average price** in the region whose **zipcode is 98134** is **highest**, while in the region whose **zipcode is 98106** you can book **cheap** homestay. What's more, listings **near Kaanapali** are usually **expensive** while those **near Holly park** can be very **cheap**.
 
-<img src="Answer2-1.png" alt="Answer2-1" style="zoom:30%;" />
+<img src="C:\Users\zengh\Desktop\Project1_Writing_a_data_scientist_blog_post\Answer2-1.png" alt="Answer2-1" style="zoom:80%;" />
 
 - **The number of amenities** listings have can also influence the price. In general, listings with **more amenities** usually are **more expensive**. But this phenomenon is not that unconditional, actually it also depends on what kinds of amenities listings have.
 
-<img src="Answer2-2.png" alt="Answer2-2" style="zoom:30%;" />
+<img src="C:\Users\zengh\Desktop\Project1_Writing_a_data_scientist_blog_post\Answer2-2.png" alt="Answer2-2" style="zoom:60%;" />
 
 - For some kinds of amenities, listings with them or without them may have different prices. A homestay **with TV** will obviously **more expensive** than that without, But a homestay **with cats or dogs** usually **cheaper** than that without cats of dog. (In following picture, '1' means with that amenity, '0' means without that)
 
-<img src="Answer2-3.png" alt="Answer2-3" style="zoom:30%;" />
+<img src="C:\Users\zengh\Desktop\Project1_Writing_a_data_scientist_blog_post\Answer2-3.png" alt="Answer2-3" style="zoom:80%;" />
 
 - **Location**, **cleaning fee**, **available time**, **reviews**(including number of reviews per month and review scores),  **number of amenities** might be top 5 important factors for the price.
 
@@ -62,7 +62,7 @@ In response to above questions , I analyzed the dataset and got the answer of ea
 
 - Location, property of accomodation, comfort, cleanliness might be factors that guests care about most.
 
-<img src="reviews_wordcloud.png" alt="reviews_wordcloud" style="zoom:30%;" />
+<img src="C:\Users\zengh\Desktop\Project1_Writing_a_data_scientist_blog_post\reviews_wordcloud.png" alt="reviews_wordcloud" style="zoom:80%;" />
 
 ### Conclusion
 
@@ -106,6 +106,12 @@ All libraries I used in this project are as following:
 - listings_data_predict.ipynb - code used to make price predict model.
 - calendar_data_analysis.ipynb - code used to analyze calendar data.
 - reviews_data_analysis.ipynb - code used to analyze reviews data.
+
+## Acknowledgement
+
+Data Source - Seattle Airbnb Open Data https://www.kaggle.com/airbnb/seattle
+
+
 
 
 
